@@ -4,33 +4,33 @@ import { AttributeWheelItem } from '../types';
 export default function Approaches() {
   const attributes: AttributeWheelItem[] = [
     {
-      title: 'ITIL Framework',
-      description: 'Marco de mejores prácticas para gestión de servicios de TI, enfocado en alineación con el negocio y co-creación de valor.',
+      title: 'ITIL',
+      description: 'Marco más adoptado mundialmente. Enfocado en mejores prácticas, entrega de valor y co-creación con stakeholders.',
       color: 'bg-gradient-to-br from-blue-500 to-blue-700',
     },
     {
       title: 'ISO/IEC 20000',
-      description: 'Norma internacional que define los requisitos para establecer, implementar y mejorar un sistema de gestión de servicios de TI.',
+      description: 'Norma internacional para sistemas de gestión de servicios. Estandarización, certificación y conformidad con requisitos.',
       color: 'bg-gradient-to-br from-green-500 to-green-700',
     },
     {
-      title: 'COBIT',
-      description: 'Marco de gobierno y gestión de TI empresarial que une negocio y tecnología para crear valor organizacional.',
+      title: 'COBIT 2019',
+      description: 'Marco de referencia para gobierno y control de información y tecnología en toda la empresa.',
       color: 'bg-gradient-to-br from-purple-500 to-purple-700',
     },
     {
-      title: 'DevOps',
-      description: 'Enfoque cultural y práctico que integra desarrollo y operaciones para acelerar la entrega de servicios con calidad.',
-      color: 'bg-gradient-to-br from-orange-500 to-orange-700',
-    },
-    {
-      title: 'Agile & Lean',
-      description: 'Metodologías que promueven flexibilidad, entrega iterativa, eliminación de desperdicios y mejora continua.',
+      title: 'ISO/IEC 27001',
+      description: 'Estándar para gestión de seguridad de la información (SGSI), enfocado en confidencialidad, integridad y disponibilidad.',
       color: 'bg-gradient-to-br from-red-500 to-red-700',
     },
     {
-      title: 'Six Sigma',
-      description: 'Metodología de mejora de calidad basada en datos que reduce defectos y variabilidad en los procesos de servicio.',
+      title: 'DevOps',
+      description: 'Filosofía de colaboración entre desarrollo y operaciones. Enfoque en agilidad, velocidad y automatización continua.',
+      color: 'bg-gradient-to-br from-orange-500 to-orange-700',
+    },
+    {
+      title: 'Lean & Agile',
+      description: 'Metodologías centradas en eliminación de desperdicios y entrega iterativa e incremental de valor.',
       color: 'bg-gradient-to-br from-teal-500 to-teal-700',
     },
   ];
@@ -100,25 +100,25 @@ export default function Approaches() {
                 </div>
               </div>
 
-              <div className="bg-red-50 rounded-xl p-6 border-l-4 border-red-600">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Agile & Lean</h3>
+              <div className="bg-teal-50 rounded-xl p-6 border-l-4 border-teal-600">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Lean & Agile</h3>
                 <p className="mb-3">
-                  Agile enfatiza la flexibilidad y entrega iterativa de valor. Lean se centra en eliminar desperdicios y optimizar flujos de valor. Ambos promueven adaptabilidad y eficiencia.
+                  Lean se centra en eliminar desperdicios y optimizar flujos de valor. Agile enfatiza la flexibilidad y entrega iterativa e incremental de valor. Ambos promueven adaptabilidad y eficiencia.
                 </p>
                 <div className="bg-white p-3 rounded">
                   <p className="text-sm font-semibold text-gray-800">Enfoque principal:</p>
-                  <p className="text-sm">Iteraciones cortas, feedback continuo, eliminación de desperdicios, y valor al cliente.</p>
+                  <p className="text-sm">Iteraciones cortas, feedback continuo, eliminación de desperdicios, y entrega de valor al cliente.</p>
                 </div>
               </div>
 
-              <div className="bg-teal-50 rounded-xl p-6 border-l-4 border-teal-600">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Six Sigma</h3>
+              <div className="bg-red-50 rounded-xl p-6 border-l-4 border-red-600">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">ISO/IEC 27001</h3>
                 <p className="mb-3">
-                  Metodología de mejora de la calidad que utiliza técnicas estadísticas para reducir defectos y variabilidad en los procesos, mejorando la consistencia y confiabilidad del servicio.
+                  Estándar internacional para la gestión de la seguridad de la información (SGSI). Proporciona un marco sistemático para proteger la información sensible mediante controles de seguridad apropiados.
                 </p>
                 <div className="bg-white p-3 rounded">
                   <p className="text-sm font-semibold text-gray-800">Enfoque principal:</p>
-                  <p className="text-sm">Análisis estadístico, metodología DMAIC (Definir, Medir, Analizar, Mejorar, Controlar).</p>
+                  <p className="text-sm">Confidencialidad, integridad y disponibilidad de la información (triada CIA), gestión de riesgos de seguridad.</p>
                 </div>
               </div>
             </div>
@@ -126,7 +126,7 @@ export default function Approaches() {
             <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-xl mt-8">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Integración de Enfoques</h3>
               <p className="mb-4">
-                Las organizaciones más exitosas no adoptan un único enfoque de manera exclusiva, sino que integran múltiples marcos según sus necesidades:
+                Las organizaciones más exitosas no adoptan un único enfoque de manera exclusiva, sino que integran múltiples marcos según sus necesidades. ITIL 4 promueve que se adopten y adapten según las necesidades específicas de cada empresa:
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start">
@@ -142,15 +142,11 @@ export default function Approaches() {
                   <span><strong>COBIT + ITIL:</strong> Integrar gobierno estratégico con gestión operativa.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-600 font-bold mr-2">•</span>
-                  <span><strong>Lean + Six Sigma:</strong> Optimizar eficiencia mientras se mejora la calidad.</span>
+                  <span className="text-red-600 font-bold mr-2">•</span>
+                  <span><strong>ISO 27001 + ITIL:</strong> Combinar seguridad de la información con gestión de servicios.</span>
                 </li>
               </ul>
             </div>
-
-            <p className="text-lg font-semibold text-gray-900 mt-6">
-              No existe una fórmula única que funcione para todas las organizaciones. El éxito depende de entender qué ofrece cada enfoque y combinarlos según las necesidades reales del negocio, teniendo en cuenta la cultura organizacional y el nivel de madurez actual en gestión de servicios.
-            </p>
           </div>
         </div>
 

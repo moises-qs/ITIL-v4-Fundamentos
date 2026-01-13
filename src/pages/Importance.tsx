@@ -4,34 +4,24 @@ import { AttributeWheelItem } from '../types';
 export default function Importance() {
   const attributes: AttributeWheelItem[] = [
     {
-      title: 'Alineación Estratégica',
-      description: 'Conecta los servicios de TI con los objetivos y estrategias del negocio, asegurando que la tecnología impulse resultados empresariales.',
+      title: 'Calidad',
+      description: 'Mejora la continuidad y confiabilidad del servicio, asegurando que los servicios estén disponibles cuando el cliente los necesite.',
       color: 'bg-gradient-to-br from-blue-500 to-blue-700',
     },
     {
-      title: 'Optimización de Costos',
-      description: 'Reduce gastos operativos mediante la automatización, estandarización de procesos y eliminación de redundancias.',
+      title: 'Costos',
+      description: 'Optimiza el gasto y el uso eficiente de los recursos, reduciendo costos operativos mediante procesos estandarizados.',
       color: 'bg-gradient-to-br from-green-500 to-green-700',
     },
     {
-      title: 'Mejora de Calidad',
-      description: 'Incrementa la calidad del servicio mediante procesos estructurados, gestión proactiva y mejora continua.',
+      title: 'Satisfacción',
+      description: 'Aumenta la experiencia positiva tanto del cliente como del usuario, mejorando la percepción de valor de los servicios de TI.',
       color: 'bg-gradient-to-br from-purple-500 to-purple-700',
     },
     {
-      title: 'Gestión de Riesgos',
-      description: 'Minimiza interrupciones del servicio y riesgos de seguridad a través de procesos de cambio y continuidad bien definidos.',
-      color: 'bg-gradient-to-br from-red-500 to-red-700',
-    },
-    {
-      title: 'Experiencia del Cliente',
-      description: 'Mejora la satisfacción del usuario final mediante servicios confiables, accesibles y centrados en sus necesidades.',
+      title: 'Toma de Decisiones',
+      description: 'Facilita decisiones basadas en procesos e información precisa en lugar de suposiciones, permitiendo gestión más efectiva.',
       color: 'bg-gradient-to-br from-orange-500 to-orange-700',
-    },
-    {
-      title: 'Agilidad Empresarial',
-      description: 'Permite a las organizaciones adaptarse rápidamente a cambios del mercado y nuevas oportunidades digitales.',
-      color: 'bg-gradient-to-br from-teal-500 to-teal-700',
     },
   ];
 
@@ -52,61 +42,41 @@ export default function Importance() {
 
           <div className="space-y-6 text-gray-700 leading-relaxed">
             <p className="text-lg">
-              La gestión de servicios de tecnologías de la información (IT) se ha convertido en un pilar fundamental para las organizaciones modernas. En un mundo cada vez más digital, donde la tecnología impulsa prácticamente todos los aspectos del negocio, gestionar efectivamente los servicios de TI ya no es opcional, sino imperativo para la supervivencia y el éxito empresarial.
+              En el escenario empresarial moderno, las organizaciones están experimentando una <strong>revolución de transformación digital</strong> que afecta a todas las industrias. Ya no se trata solo de tecnología; las empresas que antes eran fabricantes ahora se están convirtiendo en <strong>proveedores de servicios</strong> para mantenerse competitivas. La tecnología es el <strong>motor principal de la estrategia comercial</strong>, y su gestión eficaz determina la capacidad de una empresa para sobrevivir en un mercado volátil.
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Contexto Empresarial</h3>
-              <p>
-                Las organizaciones enfrentan desafíos sin precedentes: transformación digital acelerada, expectativas crecientes de los usuarios, amenazas de ciberseguridad cada vez más sofisticadas y la necesidad de hacer más con menos recursos. En este contexto, IT proporciona el marco necesario para navegar esta complejidad de manera estructurada y eficiente.
+              <h3 className="text-xl font-bold text-gray-900 mb-3">¿Qué es la Gestión de Servicios de TI (ITSM)?</h3>
+              <p className="mb-3">
+                La ITSM se define como un <strong>conjunto de capacidades organizacionales especializadas</strong> orientadas a generar valor para los clientes en forma de servicios. Su propósito fundamental es que la organización <strong>co-cree valor</strong> constantemente con sus partes interesadas mediante el uso y la gestión de productos y servicios habilitados por TI.
+              </p>
+              <p className="text-sm italic">
+                No se trata solo de mantener sistemas funcionando, sino de transformar la tecnología en un habilitador estratégico del negocio.
               </p>
             </div>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Valor Estratégico de IT</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Beneficios Clave de la ITSM</h3>
 
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl">
-                <h4 className="font-bold text-lg text-gray-900 mb-2">Para el Negocio</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <span>Alineación de TI con objetivos empresariales estratégicos</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <span>Mayor retorno de inversión en tecnología</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <span>Ventaja competitiva a través de la innovación tecnológica</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <span>Toma de decisiones basada en datos y métricas claras</span>
-                  </li>
-                </ul>
+                <h4 className="font-bold text-lg text-gray-900 mb-2">Alineación Estratégica</h4>
+                <p className="text-sm">
+                  Permite que los equipos de TI desempeñen un papel vital en la estrategia del negocio, transformando la tecnología en un motor de valor.
+                </p>
               </div>
 
               <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl">
-                <h4 className="font-bold text-lg text-gray-900 mb-2">Para los Usuarios</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-2">•</span>
-                    <span>Servicios más confiables y disponibles</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-2">•</span>
-                    <span>Resolución más rápida de incidencias y problemas</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-2">•</span>
-                    <span>Experiencia de usuario mejorada y consistente</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-2">•</span>
-                    <span>Comunicación clara sobre servicios y cambios</span>
-                  </li>
-                </ul>
+                <h4 className="font-bold text-lg text-gray-900 mb-2">Eficiencia Operativa</h4>
+                <p className="text-sm">
+                  Optimiza el uso de recursos y reduce costos mediante procesos estandarizados y mejores prácticas probadas.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl">
+                <h4 className="font-bold text-lg text-gray-900 mb-2">Calidad y Continuidad</h4>
+                <p className="text-sm">
+                  Mejora la confiabilidad de los servicios, asegurando que estén disponibles cuando el cliente los necesite.
+                </p>
               </div>
             </div>
 
@@ -132,18 +102,14 @@ export default function Importance() {
                 </div>
               </div>
             </div>
-
-            <p className="text-lg font-semibold text-gray-900 mt-8">
-              La gestión de servicios de TI va más allá de resolver tickets o mantener servidores funcionando. Se trata de transformar la tecnología en una ventaja competitiva real, permitiendo que las empresas respondan rápido a los cambios del mercado y entreguen servicios que realmente aporten valor a usuarios y clientes.
-            </p>
           </div>
         </div>
 
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">
-            Rueda de Atributos Clave
+            Rueda de Atributos de la ITSM
           </h2>
-          <AttributeWheel items={attributes} centerTitle="Importancia de IT" />
+          <AttributeWheel items={attributes} centerTitle="Atributos ITSM" />
         </div>
       </div>
     </div>

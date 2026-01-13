@@ -1,37 +1,36 @@
+import { useNavigate } from 'react-router-dom';
 import { BookOpen, Target, Network, Layers } from 'lucide-react';
 
-interface HomeProps {
-  onNavigate: (page: string) => void;
-}
+export default function Home() {
+  const navigate = useNavigate();
 
-export default function Home({ onNavigate }: HomeProps) {
   const sections = [
     {
       icon: Target,
       title: 'Importancia de IT',
       description: 'Descubre por qué la gestión de servicios de TI es fundamental para las organizaciones modernas.',
-      page: 'importance',
+      path: '/importancia-gestion-servicios-ti',
       color: 'from-blue-500 to-blue-600',
     },
     {
       icon: Network,
       title: 'Enfoques Metodológicos',
       description: 'Explora las normas, estándares y mejores prácticas en gestión de servicios.',
-      page: 'approaches',
+      path: '/enfoques-metodologicos',
       color: 'from-green-500 to-green-600',
     },
     {
       icon: Layers,
       title: 'Conceptos Clave',
       description: 'Comprende los fundamentos del Sistema de Valor del Servicio y sus componentes.',
-      page: 'concepts',
+      path: '/conceptos-clave',
       color: 'from-purple-500 to-purple-600',
     },
     {
       icon: BookOpen,
       title: 'Modelo ITIL',
       description: 'Conoce la evolución histórica y las versiones del marco de trabajo ITIL.',
-      page: 'model',
+      path: '/modelo-itil',
       color: 'from-orange-500 to-orange-600',
     },
   ];
@@ -54,7 +53,7 @@ export default function Home({ onNavigate }: HomeProps) {
             return (
               <button
                 key={index}
-                onClick={() => onNavigate(section.page)}
+                onClick={() => navigate(section.path)}
                 className="group relative bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 text-left overflow-hidden"
               >
                 <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${section.color} opacity-10 rounded-bl-full transform group-hover:scale-150 transition-transform duration-500`}></div>

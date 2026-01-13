@@ -7,7 +7,7 @@ interface AttributeWheelProps {
 
 export default function AttributeWheel({ items, centerTitle }: AttributeWheelProps) {
   return (
-    <div className="relative w-full max-w-4xl mx-auto py-12">
+    <div className="relative w-full max-w-4xl mx-auto ">
       <div className="relative aspect-square">
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-48 h-48 bg-gradient-to-br from-blue-600 to-blue-800 rounded-full shadow-2xl flex items-center justify-center z-10 border-4 border-white">

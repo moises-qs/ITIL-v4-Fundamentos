@@ -4,34 +4,19 @@ import { AttributeWheelItem } from '../types';
 export default function Concepts() {
   const attributes: AttributeWheelItem[] = [
     {
-      title: 'Sistema de Valor del Servicio (SVS)',
-      description: 'Modelo central de ITIL 4 que describe cómo todos los componentes de una organización trabajan juntos para crear valor.',
+      title: 'Bienes',
+      description: 'Transferencia de propiedad al consumidor. Ejemplo: una laptop, un servidor físico, licencias de software perpetuas.',
       color: 'bg-gradient-to-br from-blue-500 to-blue-700',
     },
     {
-      title: 'Cadena de Valor del Servicio',
-      description: 'Conjunto de actividades interconectadas que transforman demandas en productos y servicios valiosos.',
+      title: 'Acceso a Recursos',
+      description: 'Uso de recursos bajo términos acordados sin transferencia de propiedad. Ejemplo: acceso a internet, uso de almacenamiento en la nube.',
       color: 'bg-gradient-to-br from-green-500 to-green-700',
     },
     {
-      title: 'Principios Guía',
-      description: 'Siete recomendaciones fundamentales que guían las decisiones y acciones de la organización en todas las circunstancias.',
+      title: 'Acciones de Servicio',
+      description: 'Actividades realizadas por el proveedor para satisfacer una necesidad del consumidor. Ejemplo: soporte técnico, consultoría.',
       color: 'bg-gradient-to-br from-purple-500 to-purple-700',
-    },
-    {
-      title: 'Las 4 Dimensiones',
-      description: 'Perspectivas holísticas: Organizaciones y Personas, Información y Tecnología, Socios y Proveedores, Flujos de Valor.',
-      color: 'bg-gradient-to-br from-orange-500 to-orange-700',
-    },
-    {
-      title: 'Prácticas ITIL',
-      description: '34 prácticas (conjuntos de recursos organizacionales) agrupadas en gestión general, técnica y de servicios.',
-      color: 'bg-gradient-to-br from-red-500 to-red-700',
-    },
-    {
-      title: 'Mejora Continua',
-      description: 'Actividad recurrente realizada en todos los niveles para asegurar que el rendimiento cumple con las expectativas.',
-      color: 'bg-gradient-to-br from-teal-500 to-teal-700',
     },
   ];
 
@@ -43,7 +28,7 @@ export default function Concepts() {
             Conceptos Clave de la Gestión de Servicios
           </h1>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Fundamentos del Sistema de Valor del Servicio en ITIL 4
+            Elementos fundamentales de creación de valor en servicios de TI
           </p>
         </div>
 
@@ -52,183 +37,215 @@ export default function Concepts() {
 
           <div className="space-y-6 text-gray-700 leading-relaxed">
             <p className="text-lg">
-              ITIL 4 introduce un modelo conceptual robusto y holístico que redefine cómo las organizaciones deben pensar sobre la gestión de servicios. En el centro de este modelo está el <strong>Sistema de Valor del Servicio (Service Value System - SVS)</strong>, que representa cómo todos los componentes y actividades de una organización trabajan juntos de manera integrada para facilitar la creación de valor a través de servicios de TI.
+              Los conceptos clave proporcionan un <strong>lenguaje común y un enfoque compartido</strong> que permite a las personas abordar los desafíos de la administración de servicios en el mundo real. El cambio fundamental en ITIL 4 es la transición de la entrega unidireccional a la <strong>co-creación de valor</strong> entre el proveedor y el consumidor.
             </p>
 
             <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-xl border-l-4 border-blue-600">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">1. Sistema de Valor del Servicio (SVS)</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">1. Valor</h3>
               <p className="mb-4">
-                El SVS es la piedra angular de ITIL 4. Describe cómo todos los componentes y actividades de la organización se interrelacionan como un sistema para habilitar la creación de valor. El SVS incluye:
+                Es el <strong>beneficio percibido, utilidad e importancia de algo</strong>. En el contexto de la gestión de servicios, el valor es co-creado mediante una colaboración activa entre el proveedor de servicios y el consumidor.
               </p>
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="bg-white p-4 rounded-lg">
-                  <p className="font-semibold text-gray-900 mb-2">Principios Guía</p>
-                  <p className="text-sm">Recomendaciones que guían decisiones y acciones organizacionales.</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <p className="font-semibold text-gray-900 mb-2">Gobernanza</p>
-                  <p className="text-sm">Medios por los cuales se dirige y controla la organización.</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <p className="font-semibold text-gray-900 mb-2">Cadena de Valor</p>
-                  <p className="text-sm">Actividades que transforman inputs en outputs de valor.</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <p className="font-semibold text-gray-900 mb-2">Prácticas</p>
-                  <p className="text-sm">Conjuntos de recursos organizacionales para realizar trabajo.</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <p className="font-semibold text-gray-900 mb-2">Mejora Continua</p>
-                  <p className="text-sm">Actividad recurrente para mantener y mejorar el valor.</p>
-                </div>
+              <div className="bg-white p-4 rounded-lg">
+                <p className="text-sm text-gray-800">
+                  <strong>Concepto clave:</strong> El valor es subjetivo y depende de la percepción de cada stakeholder. Lo que es valioso para un cliente puede no serlo para otro.
+                </p>
               </div>
             </div>
 
             <div className="bg-gradient-to-r from-green-50 to-green-100 p-8 rounded-xl border-l-4 border-green-600">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">2. Cadena de Valor del Servicio</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">2. Servicio</h3>
               <p className="mb-4">
-                Conjunto de seis actividades interconectadas que una organización realiza para entregar un producto o servicio valioso:
+                Un <strong>medio para facilitar los resultados que los clientes desean obtener</strong> sin que estos asuman costos ni riesgos específicos. Los servicios permiten a los consumidores enfocarse en sus objetivos sin preocuparse por la gestión de recursos técnicos.
               </p>
-              <div className="space-y-3">
-                <div className="bg-white p-4 rounded-lg flex items-start">
-                  <span className="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold">1</span>
-                  <div>
-                    <p className="font-semibold text-gray-900">Planificar (Plan)</p>
-                    <p className="text-sm">Asegurar comprensión compartida de visión, estado actual y dirección de mejora.</p>
-                  </div>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="bg-white p-4 rounded-lg">
+                  <p className="font-semibold text-gray-900 mb-2">Características de un servicio:</p>
+                  <ul className="text-sm space-y-1">
+                    <li className="flex items-start">
+                      <span className="text-green-600 mr-2">•</span>
+                      <span>Entrega valor a los consumidores</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-green-600 mr-2">•</span>
+                      <span>Facilita resultados deseados</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-green-600 mr-2">•</span>
+                      <span>Elimina costos y riesgos del consumidor</span>
+                    </li>
+                  </ul>
                 </div>
-                <div className="bg-white p-4 rounded-lg flex items-start">
-                  <span className="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold">2</span>
-                  <div>
-                    <p className="font-semibold text-gray-900">Mejorar (Improve)</p>
-                    <p className="text-sm">Mejora continua de productos, servicios y prácticas.</p>
-                  </div>
-                </div>
-                <div className="bg-white p-4 rounded-lg flex items-start">
-                  <span className="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold">3</span>
-                  <div>
-                    <p className="font-semibold text-gray-900">Comprometer (Engage)</p>
-                    <p className="text-sm">Proporcionar comprensión de las necesidades de stakeholders, fomentar relaciones y transparencia.</p>
-                  </div>
-                </div>
-                <div className="bg-white p-4 rounded-lg flex items-start">
-                  <span className="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold">4</span>
-                  <div>
-                    <p className="font-semibold text-gray-900">Diseñar y Transitar (Design & Transition)</p>
-                    <p className="text-sm">Asegurar que productos y servicios cumplan expectativas de calidad, costos y tiempo.</p>
-                  </div>
-                </div>
-                <div className="bg-white p-4 rounded-lg flex items-start">
-                  <span className="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold">5</span>
-                  <div>
-                    <p className="font-semibold text-gray-900">Obtener/Construir (Obtain/Build)</p>
-                    <p className="text-sm">Asegurar disponibilidad de componentes de servicio cuando y donde se necesiten.</p>
-                  </div>
-                </div>
-                <div className="bg-white p-4 rounded-lg flex items-start">
-                  <span className="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold">6</span>
-                  <div>
-                    <p className="font-semibold text-gray-900">Entregar y Soportar (Deliver & Support)</p>
-                    <p className="text-sm">Asegurar que los servicios se entreguen y soporten según especificaciones acordadas.</p>
-                  </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <p className="font-semibold text-gray-900 mb-2">Ejemplo práctico:</p>
+                  <p className="text-sm">
+                    Un servicio de correo electrónico en la nube permite a los usuarios comunicarse sin necesidad de mantener servidores propios, sin preocuparse por backups o actualizaciones.
+                  </p>
                 </div>
               </div>
             </div>
 
             <div className="bg-gradient-to-r from-purple-50 to-purple-100 p-8 rounded-xl border-l-4 border-purple-600">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">3. Los Siete Principios Guía</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">3. Producto</h3>
               <p className="mb-4">
-                Recomendaciones fundamentales que guían a las organizaciones en todas las circunstancias:
+                Una <strong>configuración de recursos</strong> (personas, información, tecnología, procesos) diseñada para ofrecer valor a un consumidor específico o grupo de consumidores.
               </p>
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="bg-white p-4 rounded-lg">
-                  <p className="font-bold text-purple-700 mb-1">1. Enfocarse en el valor</p>
-                  <p className="text-sm">Todo debe vincular al valor para stakeholders.</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <p className="font-bold text-purple-700 mb-1">2. Comenzar donde está</p>
-                  <p className="text-sm">No partir de cero, considerar lo que ya existe.</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <p className="font-bold text-purple-700 mb-1">3. Progresar iterativamente</p>
-                  <p className="text-sm">No hacer todo de una vez, usar feedback.</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <p className="font-bold text-purple-700 mb-1">4. Colaborar y promover visibilidad</p>
-                  <p className="text-sm">Trabajar juntos con información transparente.</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <p className="font-bold text-purple-700 mb-1">5. Pensar y trabajar holísticamente</p>
-                  <p className="text-sm">Ningún servicio opera aislado.</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <p className="font-bold text-purple-700 mb-1">6. Mantenerlo simple y práctico</p>
-                  <p className="text-sm">Usar el mínimo número de pasos necesarios.</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg md:col-span-2">
-                  <p className="font-bold text-purple-700 mb-1">7. Optimizar y automatizar</p>
-                  <p className="text-sm">Maximizar valor del trabajo humano, usar tecnología para tareas repetitivas.</p>
-                </div>
+              <div className="bg-white p-4 rounded-lg">
+                <p className="text-sm text-gray-800 mb-3">
+                  <strong>Relación con servicios:</strong> Los productos soportan la entrega de servicios. Un servicio puede incluir múltiples productos trabajando juntos.
+                </p>
+                <p className="text-sm text-gray-700 italic">
+                  Ejemplo: Un servicio de "Gestión de Identidades" puede incluir productos como Active Directory, sistema de autenticación multifactor y portal de autoservicio.
+                </p>
               </div>
             </div>
 
             <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-8 rounded-xl border-l-4 border-orange-600">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">4. Las Cuatro Dimensiones de la Gestión de Servicios</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">4. Utilidad y Garantía</h3>
               <p className="mb-4">
-                Perspectivas críticas que deben considerarse para gestión efectiva:
+                Dos aspectos fundamentales que determinan el valor de un servicio:
               </p>
               <div className="grid md:grid-cols-2 gap-4">
-                <div className="bg-white p-5 rounded-lg">
-                  <p className="font-bold text-orange-700 mb-2">Organizaciones y Personas</p>
-                  <p className="text-sm">Cultura, estructura organizacional, roles, responsabilidades, habilidades y competencias.</p>
+                <div className="bg-white p-5 rounded-lg border-2 border-orange-300">
+                  <p className="font-bold text-orange-700 mb-2 text-lg">Utilidad</p>
+                  <p className="text-sm mb-2"><strong>"Lo que el servicio hace"</strong></p>
+                  <p className="text-sm mb-3">La funcionalidad ofrecida por un producto o servicio para satisfacer una necesidad particular.</p>
+                  <div className="bg-orange-50 p-3 rounded">
+                    <p className="text-xs font-semibold text-gray-800 mb-1">También llamado:</p>
+                    <p className="text-xs">"Apto para el propósito" (Fit for purpose)</p>
+                  </div>
                 </div>
-                <div className="bg-white p-5 rounded-lg">
-                  <p className="font-bold text-orange-700 mb-2">Información y Tecnología</p>
-                  <p className="text-sm">Información y conocimiento necesarios, tecnologías de soporte y gestión.</p>
+                <div className="bg-white p-5 rounded-lg border-2 border-orange-300">
+                  <p className="font-bold text-orange-700 mb-2 text-lg">Garantía</p>
+                  <p className="text-sm mb-2"><strong>"Cómo se desempeña"</strong></p>
+                  <p className="text-sm mb-3">La seguridad de que un producto o servicio cumplirá con los requisitos acordados (disponibilidad, capacidad, seguridad).</p>
+                  <div className="bg-orange-50 p-3 rounded">
+                    <p className="text-xs font-semibold text-gray-800 mb-1">También llamado:</p>
+                    <p className="text-xs">"Apto para el uso" (Fit for use)</p>
+                  </div>
                 </div>
-                <div className="bg-white p-5 rounded-lg">
-                  <p className="font-bold text-orange-700 mb-2">Socios y Proveedores</p>
-                  <p className="text-sm">Relaciones con otras organizaciones para diseño, desarrollo, implementación y soporte.</p>
-                </div>
-                <div className="bg-white p-5 rounded-lg">
-                  <p className="font-bold text-orange-700 mb-2">Flujos de Valor y Procesos</p>
-                  <p className="text-sm">Actividades y workflows para crear valor, cómo se organizan y optimizan.</p>
-                </div>
+              </div>
+              <div className="bg-white p-4 rounded-lg mt-4">
+                <p className="text-sm font-semibold text-gray-900 mb-2">Ejemplo integrado:</p>
+                <p className="text-sm">
+                  Un servicio de backup tiene <strong>utilidad</strong> porque permite guardar y restaurar datos (propósito). Tiene <strong>garantía</strong> porque funciona 24/7, completa backups en tiempo definido y garantiza recuperación en menos de 4 horas.
+                </p>
               </div>
             </div>
 
             <div className="bg-gradient-to-r from-red-50 to-red-100 p-8 rounded-xl border-l-4 border-red-600">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">5. Las 34 Prácticas ITIL</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">5. Stakeholders (Partes Interesadas)</h3>
               <p className="mb-4">
-                Conjuntos de recursos organizacionales diseñados para realizar trabajo o lograr un objetivo. Agrupadas en tres categorías:
+                Personas u organizaciones que tienen un interés o están involucradas en las actividades, objetivos y resultados de la organización.
               </p>
               <div className="space-y-3">
                 <div className="bg-white p-4 rounded-lg">
-                  <p className="font-bold text-red-700 mb-2">Prácticas de Gestión General (14)</p>
-                  <p className="text-sm">Adaptadas de dominios de gestión empresarial: gestión de estrategia, gestión de portafolio, gestión de arquitectura, etc.</p>
+                  <p className="font-bold text-red-700 mb-2">Cliente</p>
+                  <p className="text-sm">Persona que <strong>define los requisitos del servicio</strong> y asume la <strong>responsabilidad de los resultados</strong> del consumo de servicios. Usualmente autoriza el presupuesto.</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg">
-                  <p className="font-bold text-red-700 mb-2">Prácticas de Gestión de Servicios (17)</p>
-                  <p className="text-sm">Específicas de IT: gestión de incidentes, problemas, cambios, niveles de servicio, catálogo de servicios, etc.</p>
+                  <p className="font-bold text-red-700 mb-2">Usuario</p>
+                  <p className="text-sm">Persona que <strong>utiliza los servicios</strong> en el día a día. Puede ser diferente del cliente que los solicitó.</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg">
-                  <p className="font-bold text-red-700 mb-2">Prácticas de Gestión Técnica (3)</p>
-                  <p className="text-sm">Adaptadas de dominios de gestión tecnológica: gestión de despliegue, gestión de infraestructura y plataforma.</p>
+                  <p className="font-bold text-red-700 mb-2">Patrocinador (Sponsor)</p>
+                  <p className="text-sm">Persona que <strong>autoriza el presupuesto</strong> para el consumo de servicios. A menudo es un ejecutivo senior que garantiza el financiamiento.</p>
+                </div>
+              </div>
+              <div className="bg-white p-4 rounded-lg mt-3">
+                <p className="text-sm italic text-gray-700">
+                  <strong>Ejemplo:</strong> En una empresa, el CIO (patrocinador) aprueba el presupuesto, el gerente de departamento (cliente) define los requisitos del servicio de CRM, y los vendedores (usuarios) utilizan el sistema diariamente.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-teal-50 to-teal-100 p-8 rounded-xl border-l-4 border-teal-600">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">6. Salidas (Outputs) vs. Resultados (Outcomes)</h3>
+              <p className="mb-4">
+                Distinción fundamental para entender la creación de valor:
+              </p>
+              <div className="grid md:grid-cols-2 gap-4 mb-4">
+                <div className="bg-white p-5 rounded-lg border-2 border-teal-300">
+                  <p className="font-bold text-teal-700 mb-2 text-lg">Salida (Output)</p>
+                  <p className="text-sm mb-3">Un <strong>entregable tangible o intangible</strong> de una actividad. Es lo que el proveedor produce.</p>
+                  <div className="bg-teal-50 p-3 rounded text-xs">
+                    <p className="font-semibold mb-1">Ejemplos:</p>
+                    <ul className="space-y-1">
+                      <li>• Reporte generado</li>
+                      <li>• Ticket cerrado</li>
+                      <li>• Software desplegado</li>
+                      <li>• Backup completado</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="bg-white p-5 rounded-lg border-2 border-teal-300">
+                  <p className="font-bold text-teal-700 mb-2 text-lg">Resultado (Outcome)</p>
+                  <p className="text-sm mb-3">Un <strong>logro o cambio</strong> alcanzado gracias a una o más salidas. Es el valor real para el consumidor.</p>
+                  <div className="bg-teal-50 p-3 rounded text-xs">
+                    <p className="font-semibold mb-1">Ejemplos:</p>
+                    <ul className="space-y-1">
+                      <li>• Mayor productividad</li>
+                      <li>• Reducción de riesgos</li>
+                      <li>• Mejor experiencia del cliente</li>
+                      <li>• Aumento de ingresos</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white p-4 rounded-lg">
+                <p className="text-sm font-semibold text-gray-900 mb-2">Ejemplo práctico completo:</p>
+                <div className="grid md:grid-cols-2 gap-3 text-sm">
+                  <div>
+                    <p className="font-semibold text-teal-700 mb-1">Salida:</p>
+                    <p>Se implementa un nuevo sistema de gestión de tickets con SLA de 4 horas.</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-teal-700 mb-1">Resultado:</p>
+                    <p>Los empleados pierden menos tiempo esperando soporte, aumentando su productividad en 15%.</p>
+                  </div>
                 </div>
               </div>
             </div>
 
+            <div className="bg-gradient-to-r from-indigo-50 to-indigo-100 p-6 rounded-xl mt-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Integración de Conceptos</h3>
+              <p className="mb-4">
+                Todos estos conceptos trabajan juntos en la gestión de servicios moderna:
+              </p>
+              <ul className="space-y-2 text-sm">
+                <li className="flex items-start">
+                  <span className="text-indigo-600 font-bold mr-2">→</span>
+                  <span>El <strong>proveedor</strong> configura <strong>productos</strong> usando recursos organizacionales</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-600 font-bold mr-2">→</span>
+                  <span>Estos productos se entregan como <strong>servicios</strong> (bienes, acceso, acciones)</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-600 font-bold mr-2">→</span>
+                  <span>Los servicios deben tener <strong>utilidad</strong> (función correcta) y <strong>garantía</strong> (desempeño confiable)</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-600 font-bold mr-2">→</span>
+                  <span>Diferentes <strong>stakeholders</strong> (patrocinador, cliente, usuario) participan en el consumo</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-600 font-bold mr-2">→</span>
+                  <span>El proveedor genera <strong>salidas</strong>, pero el verdadero <strong>valor</strong> está en los <strong>resultados</strong> logrados</span>
+                </li>
+              </ul>
+            </div>
+
             <p className="text-lg font-semibold text-gray-900 mt-6">
-              Todos estos elementos trabajan juntos en ITIL 4. El SVS, los principios guía, la cadena de valor, las cuatro dimensiones y las prácticas se complementan para ayudar a las organizaciones a gestionar servicios de TI de forma más efectiva, adaptándose a los cambios constantes del negocio y la tecnología.
+              Estos conceptos clave forman el vocabulario fundamental de ITIL 4 y la gestión moderna de servicios. Comprenderlos correctamente es esencial para aplicar las prácticas de ITIL de manera efectiva y co-crear valor real con los stakeholders.
             </p>
           </div>
         </div>
 
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">
-            Rueda de Conceptos Clave
+            Rueda de Oferta de Servicios
           </h2>
-          <AttributeWheel items={attributes} centerTitle="Conceptos ITIL 4" />
+          <AttributeWheel items={attributes} centerTitle="Tipos de Oferta" />
         </div>
       </div>
     </div>

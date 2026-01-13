@@ -39,6 +39,12 @@ export default function Model() {
       title: 'Transformación Digital - ITIL 4',
       description: 'Reimaginación completa del marco para la era digital. Introduce el Sistema de Valor del Servicio (SVS), integra prácticas modernas como DevOps, Agile y Lean, y se centra en co-creación de valor, flexibilidad y transformación digital.',
     },
+    {
+      year: '2021',
+      version: 'Gestión Actual',
+      title: 'PeopleCert adquiere AXELOS',
+      description: 'PeopleCert adquiere AXELOS, asumiendo la gestión y evolución del marco ITIL. Esta transición asegura la continuidad y desarrollo futuro de ITIL como estándar global para la gestión de servicios de TI.',
+    },
   ];
 
   return (
@@ -155,10 +161,6 @@ export default function Model() {
                 ITIL continúa evolucionando. La comunidad global de practicantes, organizaciones de capacitación y certificación, y AXELOS (custodio de ITIL) trabajan constantemente para mantener el marco relevante frente a tendencias emergentes como inteligencia artificial, automatización avanzada, edge computing y nuevas formas de trabajo. ITIL 4 está diseñado para ser extensible y adaptable, asegurando que permanezca como referente en gestión de servicios por muchos años más.
               </p>
             </div>
-
-            <p className="text-lg font-semibold text-gray-900 mt-6">
-              ITIL se ha convertido en mucho más que un conjunto de libros. Hoy es el lenguaje que usan millones de profesionales de TI en todo el mundo para comunicarse sobre gestión de servicios, compartir experiencias y mejorar la manera en que la tecnología ayuda a cumplir los objetivos del negocio.
-            </p>
           </div>
         </div>
 
